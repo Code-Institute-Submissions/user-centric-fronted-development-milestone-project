@@ -11,13 +11,13 @@ body{
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
+.h-divider{
+ margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:100%;
+ border-top:3px solid #b4a686;
+}
 /*---Navbar--*/
 .navbar {
     text-transform: uppercase;
@@ -75,23 +75,6 @@ body,
   background: rgba(0, 0, 0, 0.6)!important;
 }
 
-
-.btn-frm {
-    background-color: #b4a686;
-    border-color: #b4a686;
-    color: white;
-
-}
-
-.btn-frm:hover,
-.btn-frm:active,
-.btn-frm:focus,
-.btn-frm:active:focus {
-    color: #b4a686;
-    border-color: white;
-    background-color: white;
-}
-
 .btn-outline-light:hover,
 .btn-outline-light:active,
 .btn-outline-light:focus,
@@ -124,19 +107,17 @@ body,
   margin-top: 100px;
   background: rgba(0, 0, 0, 0.6)!important;
   border: 5px solid #b4a686;
-  
-
 }
 
 .person {
   border: 10px solid transparent;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   width: 80%;
   height: 80%;
   
 }
 .person:hover {
-  border-color: #f1f1f1;
+  border-color: #b4a686;
 }
 
 /*---Store-Page--*/
@@ -188,6 +169,29 @@ a #usimg {
     padding-left: 33px;
     padding-bottom: 0px;
 }
+/*---Tour Page--*/
+
+html,
+body,
+#tour {
+    height: 100%;
+}
+
+#tour {
+    background: url("../images/tour.jpg") no-repeat  center center fixed;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow-x: auto;
+}
+
+.btn-light {
+    background-color: #b4a686;
+    border-color: white;
+    color: white;
+}
 
 /*---Contact-Page--*/
 html,
@@ -228,6 +232,21 @@ element.btn-frm {
     margin-bottom: 10px;
 }
 
+.btn-frm {
+    background-color: #b4a686;
+    border-color: #b4a686;
+    color: white;
+
+}
+
+.btn-frm:hover,
+.btn-frm:active,
+.btn-frm:focus,
+.btn-frm:active:focus {
+    color: #b4a686;
+    border-color: white;
+    background-color: white;
+}
 /*---Footer---*/
 
 .footer {
@@ -266,6 +285,8 @@ element.btn-frm {
     background: #fafafa;
     color: #b4a686;
 }
+
+
 
 #ftr-text {
     text-transform: uppercase;
