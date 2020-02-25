@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pirata+One&display=swap');
 
 body{
     overflow: auto;
-    font-family: 'Metal Mania', sans-serif;
+    font-family: 'Pirata One', sans-serif;
     color: white
    
 }
@@ -13,6 +13,38 @@ body{
 
 
 
+
+
+
+
+
+/*---Navbar--*/
+.navbar {
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, 0.2)!important;
+    padding: 0 ;
+}
+.navbar-brand img {
+    height: 4rem;
+    width: 12rem;
+    
+}
+.navbar-nav li{
+    padding-right: 5px;
+    
+} 
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #b4a686;
+}
+
 /*---Home-page---*/
 
 html,
@@ -22,7 +54,7 @@ body,
 }
 
 #home {
-    background: url("../images/landingpage.jpg") no-repeat  center center fixed;
+    background: url("../images/home.jpg") no-repeat  center center fixed;
     height: 100%;
     width: 100%;
     -webkit-background-size: cover;
@@ -33,7 +65,7 @@ body,
 
 .caption {
   position: relative;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 320px;
@@ -69,7 +101,6 @@ body,
     color: white;
 }
 
-
 /*---Bio-page---*/
 
 html,
@@ -79,18 +110,22 @@ body,
 }
 
 #bio {
-    background: url("../images/landingpage.jpg") no-repeat  center center fixed;
+    background: url("../images/bio.jpg") no-repeat  center center fixed;
     height: 100%;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
+    overflow-x: auto;
 }
 
 .container {
   padding: 80px 120px;
+  margin-top: 100px;
   background: rgba(0, 0, 0, 0.6)!important;
+  border: 5px solid #b4a686;
+  
+
 }
 
 .person {
@@ -104,64 +139,23 @@ body,
   border-color: #f1f1f1;
 }
 
-
-/*---Navbar--*/
-.navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 17px;
-    letter-spacing: 2px;
-    background: rgba(0, 0, 0, 0.2)!important;
-    padding: 0 ;
-}
-.navbar-brand img {
-    height: 4rem;
-    width: 12rem;
-    
-}
-.navbar-nav li{
-    padding-right: 5px;
-    
-} 
-
-.navbar-dark .navbar-nav .nav-link {
-    color:white;
-}
-
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #b4a686;
-}
-
-
-
-
-
-/*---Contact-Page--*/
-
-.contact-sec {
-    position: relative;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background: rgba(0, 0, 0, 0.6)!important;
-    border: 5px solid #b4a686;
-}
-
-element.btn-frm {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.form-row{
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 /*---Store-Page--*/
+html,
+body,
+#store {
+    height: 100%;
+}
+
+#store {
+    background: url("../images/store.jpg") no-repeat  center center fixed;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow-x: auto;
+}
+
 
 a .merchimg {
     vertical-align: middle;
@@ -193,6 +187,45 @@ a #usimg {
     padding-right: 33px;
     padding-left: 33px;
     padding-bottom: 0px;
+}
+
+/*---Contact-Page--*/
+html,
+body,
+#bookus {
+    height: 100%;
+}
+
+#bookus {
+    background: url("../images/bookus.jpg") no-repeat  center center fixed;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow-x: auto;
+}
+
+.contact-sec {
+    position: relative;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.6)!important;
+    border: 5px solid #b4a686;
+}
+
+element.btn-frm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form-row{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /*---Footer---*/
