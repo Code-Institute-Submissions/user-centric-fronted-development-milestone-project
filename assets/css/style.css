@@ -12,11 +12,12 @@ body{
 }
 
 .h-divider{
- margin-top:5px;
- margin-bottom:5px;
+ margin-top: 25px;
+ margin-bottom: 25px;
  height:1px;
  width:100%;
  border-top:3px solid #b4a686;
+ 
 }
 /*---Navbar--*/
 .navbar {
@@ -109,15 +110,35 @@ body,
   border: 5px solid #b4a686;
 }
 
+.h-divider-heading{
+ margin-top: 5px;
+ margin-bottom: 5px;
+ height:1px;
+ width:100%;
+ border-top:3px solid #b4a686;
+ 
+}
+
+.h-divider-bio{
+ margin-top: 100px;
+ margin-bottom: 5px;
+ height:1px;
+ width:100%;
+ border-top:3px solid #b4a686;
+ 
+}
+
+
+
 .person {
   border: 10px solid transparent;
-  margin-bottom: 50px;
+  margin-bottom: 25px;;
   width: 80%;
   height: 80%;
-  
+  border-color: #b4a686;
 }
 .person:hover {
-  border-color: #b4a686;
+  border-color: white;
 }
 
 /*---Store-Page--*/
