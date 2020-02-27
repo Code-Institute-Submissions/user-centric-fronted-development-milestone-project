@@ -13,6 +13,7 @@ The purpose of this project is to create a static **(front-end only)** website f
 
 **In order for the target audience to achieve these things when visiting my website, I incorporated the following:**
 - A big background image in the homepage where the new album is clearly advertised with a link to spotify where one can listen to it.
+![](assets/images/homepage-screenshot.jpg "Full picture on the Homepage")
 - Links to social media in the footer leading to youtube (where one can watch the band's clips) as well as instagram, twitter, facebook (where one can keep in touch with the band).
 - A Bio page where new fans can check out basic info about the band (where they are from, how many albums they have realesed, who the members are and what instruments they play).
 ![](assets/images/biopage-screenshot.jpg "Full picture on the biopage")
@@ -21,7 +22,7 @@ The purpose of this project is to create a static **(front-end only)** website f
 - A tour page where fans can see where and when upcoming shows are taking place.
 ![](assets/images/tourpage-screenshot.jpg "Full picture on the tourpage")
 - A bookings page so users can book the band for various events.
-![](assets/images/bookpage-screenshot.jpg "Full picture on the bookuspage")
+![](assets/images/bookus-screenshot.jpg "Full picture on the bookuspage")
 
 
 
