@@ -1,7 +1,7 @@
 # Opeth band website
 Milestone Project #1 : User-Centric Frontend Development - Code Institute 
 
-![](assets/images/homepage-screenshot.jpg "Full bg-picture on the Homepage")
+![](assets/images/homepage-screenshot.jpg "Full picture on the Homepage")
 
 I have built a website for the best progressive metal band in the world, Opeth. The design is user friendly and easy on the eyes while the website itself contains everything a band and its audience need in order to establish a bond: A home page display a promotional image with the latest album as well as a link to listen to it on Spotify. A bio page to view the band's origins as well as current members, a store page with link to the bands official European, American as well as Amazon store where numerous tshirts, albums and posters are sold. A Tour page with all the upcoming shows as well as direct links to buy tickets. And finally a Book us page for potential business inquiries by promoters and event managers who want to book the band for a show. In the footer of each page are the links to the bands social media where fans can keep in touch with the band.
 
@@ -13,9 +13,14 @@ The purpose of this project is to create a static **(front-end only)** website f
 - A big background image in the homepage where the new album is clearly advertised with a link to spotify where one can listen to it.
 - Links to social media in the footer leading to youtube (where one can watch the band's clips) as well as instagram, twitter, facebook (where one can keep in touch with the band).
 - A Bio page where new fans can check out basic info about the band (where they are from, how many albums they have realesed, who the members are and what instruments they play).
+![](assets/images/biopage-screenshot.jpg "Full picture on the biopage")
 - A store page with links to the official world-wide stores of the band. The band has different external online stores for Europe and America as well as amazon, so no matter whee the fans live they have access to the Opeth's albums and merchandise.
+![](assets/images/storepage-screenshot.jpg "Full picture on the storepage")
 -A tour page where fans can see where and when upcoming shows are taking place.
+![](assets/images/tourpage-screenshot.jpg "Full picture on the tourpage")
 - A bookings page so users can book the band for various events.
+![](assets/images/bookuspage-screenshot.jpg "Full picture on the bookuspage")
+
 
 
 >I did my best to keep the colors as of the website as consistent as possible, in order to ensure a possitive user experience.
