@@ -16,10 +16,10 @@ The purpose of this project is to create a static **(front-end only)** website f
 ![](assets/images/biopage-screenshot.jpg "Full picture on the biopage")
 - A store page with links to the official world-wide stores of the band. The band has different external online stores for Europe and America as well as amazon, so no matter whee the fans live they have access to the Opeth's albums and merchandise.
 ![](assets/images/storepage-screenshot.jpg "Full picture on the storepage")
--A tour page where fans can see where and when upcoming shows are taking place.
+- A tour page where fans can see where and when upcoming shows are taking place.
 ![](assets/images/tourpage-screenshot.jpg "Full picture on the tourpage")
 - A bookings page so users can book the band for various events.
-![](assets/images/bookuspage-screenshot.jpg "Full picture on the bookuspage")
+![](assets/images/bookpage-screenshot.jpg "Full picture on the bookuspage")
 
 
 
