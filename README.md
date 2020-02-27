@@ -22,11 +22,11 @@ The purpose of this project is to create a static **(front-end only)** website f
  ### Wireframe Mockups
  
  These can be found at the following links below:
- >assets/images/home-wireframe
- assets/images/bio-wireframe
- assets/images/store-wireframe
- assets/images/bookus-wireframe
- 
+ >https://github.com/NikolasPolychronidis/user-centric-fronted-development-milestone-project/blob/master/assets/images/home-wireframe.jpg
+ https://github.com/NikolasPolychronidis/user-centric-fronted-development-milestone-project/blob/master/assets/images/bio-wireframe.jpg
+ https://github.com/NikolasPolychronidis/user-centric-fronted-development-milestone-project/blob/master/assets/images/store-wireframe.jpg
+ https://github.com/NikolasPolychronidis/user-centric-fronted-development-milestone-project/blob/master/assets/images/tour-wireframe.jpg
+ https://github.com/NikolasPolychronidis/user-centric-fronted-development-milestone-project/blob/master/assets/images/bookus-wireframe.jpg
  
 
 ## Gitpod Reminders
