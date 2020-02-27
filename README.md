@@ -22,7 +22,7 @@ The purpose of this project is to create a static **(front-end only)** website f
 - A tour page where fans can see where and when upcoming shows are taking place.
 ![](assets/images/tourpage-screenshot.jpg "Full picture on the tourpage")
 - A bookings page so users can book the band for various events.
-![](assets/images/bookus-screenshot.jpg "Full picture on the bookuspage")
+![](assets/images/bookus-page.jpg "Full picture on the bookuspage")
 
 
 
