@@ -106,6 +106,7 @@ body,
 .container {
   padding: 80px 120px;
   margin-top: 100px;
+  margin-bottom: 100px;
   background: rgba(0, 0, 0, 0.6)!important;
   border: 5px solid #b4a686;
 }
@@ -208,13 +209,20 @@ body,
     overflow-x: auto;
 }
 
+.container-tour {
+  padding: 50px 120px;
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.6)!important;
+  border: 5px solid #b4a686;
+}
+
 .btn-light {
     background-color: #b4a686;
     border-color: white;
     color: white;
 }
 
-/*---Contact-Page--*/
+/*---Bookus-Page--*/
 html,
 body,
 #bookus {
@@ -239,11 +247,6 @@ body,
     width: 80%;
     background: rgba(0, 0, 0, 0.6)!important;
     border: 5px solid #b4a686;
-}
-
-element.btn-frm {
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .form-row{
