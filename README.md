@@ -1,8 +1,9 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Opeth band website
+Milestone Project #1 : User-Centric Frontend Development - Code Institute 
 
-Welcome NikolasPolychronidis,
+![](assets/images/homepage-screenshot.jpg "Full bg-picture on the Homepage")
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+I have built a website for the best progressive metal band in the world, Opeth. The design is user friendly and easy on the eyes while the website itself contains everything a band and its audience need in order to establish a bond: A home page display a promotional image with the latest album as well as a link to listen to it on Spotify. A bio page to view the band's origins as well as current members, a store page with link to the bands official European, American as well as Amazon store where numerous tshirts, albums and posters are sold. A Tour page with all the upcoming shows as well as direct links to buy tickets. And finally a Book us page for potential business inquiries by promoters and event managers who want to book the band for a show. In the footer of each page are the links to the bands social media where fans can keep in touch with the band.
 
 ## Gitpod Reminders
 
