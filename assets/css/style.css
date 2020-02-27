@@ -47,13 +47,6 @@ body{
 }
 
 /*---Home-page---*/
-
-html,
-body,
-#home {
-    height: 100%;
-}
-
 #home {
     background: url("../images/home.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -86,13 +79,6 @@ body,
 }
 
 /*---Bio-page---*/
-
-html,
-body,
-#bio {
-    height: 100%;
-}
-
 #bio {
     background: url("../images/bio.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -121,34 +107,26 @@ body,
 }
 
 .h-divider-bio{
- margin-top: 100px;
- margin-bottom: 5px;
- height:1px;
- width:100%;
- border-top:3px solid #b4a686;
- 
+    margin-top: 100px;
+    margin-bottom: 5px;
+    height:1px;
+    width:100%;
+    border-top:3px solid #b4a686;
 }
-
-
 
 .person {
-  border: 10px solid transparent;
-  margin-bottom: 25px;;
-  width: 80%;
-  height: 80%;
-  border-color: #b4a686;
+    border: 10px solid transparent;
+    margin-bottom: 25px;;
+    width: 80%;
+    height: 80%;
+    border-color: #b4a686;
 }
+
 .person:hover {
-  border-color: white;
+    border-color: white;
 }
 
 /*---Store-Page--*/
-html,
-body,
-#store {
-    height: 100%;
-}
-
 #store {
     background: url("../images/store.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -158,7 +136,6 @@ body,
     -o-background-size: cover;
     overflow-x: auto;
 }
-
 
 a .merchimg {
     vertical-align: middle;
@@ -171,15 +148,15 @@ a .merchimg {
 }
 
 .caption-store {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 320px;
-  padding: 10px;
-  border: 5px solid #b4a686;
-  margin: 0;
-  background: black!important;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #b4a686;
+    margin: 0;
+    background: black!important;
 }
 
 a #usimg {
@@ -192,13 +169,6 @@ a #usimg {
     padding-bottom: 0px;
 }
 /*---Tour Page--*/
-
-html,
-body,
-#tour {
-    height: 100%;
-}
-
 #tour {
     background: url("../images/tour.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -223,12 +193,6 @@ body,
 }
 
 /*---Bookus-Page--*/
-html,
-body,
-#bookus {
-    height: 100%;
-}
-
 #bookus {
     background: url("../images/bookus.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -249,7 +213,7 @@ body,
     border: 5px solid #b4a686;
 }
 
-.form-row{
+.form-row {
     padding-right: 5px;
     padding-left: 5px;
     margin-top: 10px;
@@ -260,7 +224,6 @@ body,
     background-color: #b4a686;
     border-color: #b4a686;
     color: white;
-
 }
 
 .btn-frm:hover,
@@ -272,16 +235,15 @@ body,
     background-color: white;
 }
 /*---Footer---*/
-
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
-  text-align: center;
-  font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 
 .social-links {
@@ -310,8 +272,6 @@ body,
     background: #fafafa;
     color: #b4a686;
 }
-
-
 
 #ftr-text {
     text-transform: uppercase;
