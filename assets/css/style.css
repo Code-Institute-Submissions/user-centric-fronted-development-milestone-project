@@ -12,11 +12,11 @@ body{
 }
 
 .h-divider{
- margin-top: 25px;
- margin-bottom: 25px;
- height:1px;
- width:100%;
- border-top:3px solid #b4a686;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height:1px;
+    width:100%;
+    border-top:3px solid #b4a686;
  
 }
 /*---Navbar--*/
@@ -30,23 +30,27 @@ body{
 .navbar-brand img {
     height: 5rem;
     width: 14rem;
-    
 }
-.navbar-nav li{
-    padding-right: 5px;
-    
-} 
 
 .navbar-dark .navbar-nav .nav-link {
-    color:white;
+    color: white;
 }
 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #b4a686;
+}
 
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #b4a686;
 }
 
 /*---Home-page---*/
+html,
+body,
+#home {
+    height: 100%
+}
+
 #home {
     background: url("../images/home.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -58,15 +62,15 @@ body{
 }
 
 .caption {
-  position: relative;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 320px;
-  padding: 10px;
-  border: 5px solid #b4a686;
-  margin: 0;
-  background: rgba(0, 0, 0, 0.6)!important;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    padding: 10px;
+    border: 5px solid #b4a686;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.6)!important;
 }
 
 .btn-outline-light:hover,
@@ -79,6 +83,12 @@ body{
 }
 
 /*---Bio-page---*/
+html,
+body,
+#bio {
+    height: 100%
+}
+
 #bio {
     background: url("../images/bio.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -90,19 +100,19 @@ body{
 }
 
 .container-bio {
-  padding: 80px 60px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  background: rgba(0, 0, 0, 0.6)!important;
-  border: 5px solid #b4a686;
+    padding: 80px 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: rgba(0, 0, 0, 0.6)!important;
+    border: 5px solid #b4a686;
 }
 
 .h-divider-heading{
- margin-top: 5px;
- margin-bottom: 5px;
- height:1px;
- width:100%;
- border-top:3px solid #b4a686;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height:1px;
+    width:100%;
+    border-top:3px solid #b4a686;
  
 }
 
@@ -127,6 +137,12 @@ body{
 }
 
 /*---Store-Page--*/
+html,
+body,
+#store {
+    height: 100%
+}
+
 #store {
     background: url("../images/store.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -169,6 +185,12 @@ a #usimg {
     padding-bottom: 0px;
 }
 /*---Tour Page--*/
+html,
+body,
+#tour {
+    height: 100%
+}
+
 #tour {
     background: url("../images/tour.jpg") no-repeat  center center fixed;
     height: 100%;
@@ -180,10 +202,11 @@ a #usimg {
 }
 
 .container-tour {
-  padding: 50px 120px;
-  margin-top: 100px;
-  background: rgba(0, 0, 0, 0.6)!important;
-  border: 5px solid #b4a686;
+    padding: 40px 120px;
+    margin-top: 85px;
+    margin-bottom: 75px;
+    background: rgba(0, 0, 0, 0.6)!important;
+    border: 5px solid #b4a686;
 }
 
 .btn-light {
@@ -193,6 +216,12 @@ a #usimg {
 }
 
 /*---Bookus-Page--*/
+html,
+body,
+#bookus {
+    height: 100%
+}
+
 #bookus {
     background: url("../images/bookus.jpg") no-repeat  center center fixed;
     height: 100%;
